@@ -1,18 +1,7 @@
-@font-face {
-	font-family: 'WaffleBold';
-	src: url(../fonts/WaffleBold.otf);
-}
-@font-face {
-	font-family: 'WaffleLight';
-	src: url(../fonts/WaffleLight.otf);
-}
+
 @font-face {
 	font-family: 'WaffleRegular';
 	src: url(../fonts/WaffleRegular.otf);
-}
-@font-face {
-	font-family: 'Asgalt';
-	src: url(../fonts/Asgalt.ttf);
 }
 
 .topnav {
@@ -40,7 +29,8 @@ li {
   width:120px;
   text-decoration:none; 
   color: #fff;
-  font-size: 20px;
+  font-size: 10px;
+  word-spacing: 1px;
   }
 
 .topnav a:hover {
@@ -50,10 +40,10 @@ li {
 body {
   background:#000000;
   color:#fff;
-  font-family: Asgalt;
-	font-size: 125%;
+  font-family: monospace;
+	font-size: 90%;
   letter-spacing: 0;
-  word-spacing: -2px;
+  word-spacing: 0px;
   opacity: 80%;
 }
 
@@ -64,7 +54,7 @@ a:link {
 .heading {
   display: flex;
   justify-content: center;
-  margin-top: 0;
+  margin-top: -10px;
   font-family: WaffleRegular;
   color:#fff;
   font-size: 50px;
@@ -82,6 +72,7 @@ a:link {
 
 .wrapper {
 	width: 960px;
+  margin-top: -10px;
 	margin: 0 auto;
 	background:#000000);
 	padding: 0 60px 0 60px;
@@ -128,7 +119,7 @@ a:link {
     text-align: center;
     align-content: center;
   }
-  
+
   .col-4{
     width: 40%;
     text-align: center;
@@ -182,7 +173,7 @@ a:link {
 
 .column img {
 	border: 2px rgb(0, 0, 0) solid;
-	padding: 5px;
+	padding: 3px;
 }
 
 .column img:hover {
