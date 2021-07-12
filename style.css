@@ -7,6 +7,8 @@
 @font-face {
   font-family: "WaffleRegular";
   src: url("fonts/WaffleRegular.otf");
+  src: url("fonts/WaffleRegular.woff");
+  src: url("fonts/WaffleRegular.ttf");
 }
 
 .topnav {
