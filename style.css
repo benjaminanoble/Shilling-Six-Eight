@@ -176,6 +176,7 @@ a:link {
 
 .column {
 	margin-bottom: 10px;
+  align-content: center;
 }
 
 .column img {
